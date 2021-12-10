@@ -1,0 +1,86 @@
+/*detalles del body*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Concert+One&display=swap');
+
+
+:root {
+    --colorPrimario: chocolate;
+    --colorSecundario: black;
+    --colorTerciario: white;
+    --tamañoFont: 40px;
+}
+
+body {background-color: var(--colorPrimario);}
+
+/*fin detalles de body/
+
+/*inicio de header*/
+
+header nav ul li a {font-size: var(--tamañoFont);
+color: var(--colorTerciario);
+background-color: var(--colorSecundario);
+font-weight: bold;
+font-style: italic;
+font-family: 'Comic Neue', cursive;
+text-decoration: none;
+border-radius: 10px;}
+
+/*fin de header*/
+
+/*inicio main section 1*/
+
+section i {color: var(--colorTerciario);
+background-color: var(--colorSecundario);
+font-size: 40px;
+font-family: 'Comic Neue', cursive;}
+
+main section p {font-size: 20px;
+font-weight: bold;}
+
+/*fin main section 1*/
+    
+/* inicio main section 2*/
+
+h1 , h2 {font-family: 'Comic Neue', cursive;
+margin-bottom: 100px;}
+    
+h1 {background-color: var(--colorSecundario);
+color: var(--colorTerciario);
+font-size: 80px;
+padding-left: 390px;
+}
+    
+.pregunta1 {font-size: var(--tamañoFont);
+padding-left: 300px;
+text-align: center;}
+    
+.pregunta2 {font-size: var(--tamañoFont);
+padding-left: 590px;}
+    
+.pregunta3 {font-size: var(--tamañoFont);
+padding-left: 650px;}
+    
+.pregunta4 {font-size: var(--tamañoFont);
+padding-left: 580px;}
+
+/* fin main section 2*/
+
+/*inicio footer*/
+
+footer p {font-size: 30px;
+padding-left: 100px;
+position: relative;
+top: 500px;}
+
+footer img {position: relative;
+top: 580px;}
+
+.titulomap {padding-left: 900px;
+font-size: 50px;
+font-weight: bold;
+color: var(--colorSecundario);
+font-family: 'Concert One', cursive;}
+
+.map {padding-left: 870px;}
+
+/*fin de footer*/
